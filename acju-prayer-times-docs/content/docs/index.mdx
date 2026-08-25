@@ -1,0 +1,46 @@
+---
+title: Introduction
+description: Overview of the ACJU Prayer Times API
+---
+
+# ACJU Prayer Times API
+
+The **ACJU Prayer Times API** provides independent prayer-time infrastructure for Sri Lanka, built by KR Hasni Zihar.
+
+Prayer-time data is sourced from the **All Ceylon Jamiyyathul Ulama (ACJU)**. This is an independent implementation and is not an official ACJU API.
+
+## Core Principle
+
+This API is designed as infrastructure. It provides structured JSON responses for geographical resolution, location metadata, and precise prayer times across 13 regions in Sri Lanka. It is built to be consumed by any modern client application, widget, or backend service.
+
+## Architecture
+
+<div className="flex flex-col items-center space-y-3 my-8 p-8 bg-fd-card border border-fd-border rounded-xl">
+  <div className="px-6 py-3 bg-fd-secondary border border-fd-border rounded-lg text-sm font-medium shadow-sm">
+    Documentation
+  </div>
+  <svg className="w-5 h-5 text-fd-muted-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+  </svg>
+  <div className="px-6 py-3 bg-fd-secondary border border-fd-border rounded-lg text-sm font-medium shadow-sm">
+    Public API (Vercel)
+  </div>
+  <svg className="w-5 h-5 text-fd-muted-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+  </svg>
+  <div className="px-6 py-3 bg-fd-secondary border border-fd-border rounded-lg text-sm font-medium shadow-sm text-emerald-500">
+    Supabase Database
+  </div>
+</div>
+
+## Features
+
+- **GPS Resolution**: Resolve any coordinate within Sri Lanka to its correct ACJU region.
+- **RESTful Endpoints**: Consistent JSON formatting for all requests.
+- **Location Support**: First-class support for all 13 ACJU-defined regions.
+- **OpenAPI Compliant**: Fully documented API contract.
+
+## Important Links
+
+- [GitHub Repository](https://github.com/hasnizihar/acju-prayer-times-api)
+- [API Playground](/docs/api-reference)

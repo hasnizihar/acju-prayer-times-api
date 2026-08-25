@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+
+@utility bg-fd-diff-remove {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+@utility bg-fd-diff-add {
+  background-color: rgba(34, 197, 94, 0.1);
+}
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+.dark {
+  /* ACJU API Premium Dark Theme */
+  --fd-background: 0 0% 0%;
+  --fd-foreground: 0 0% 96%;
+  
+  --fd-muted: 0 0% 4%;
+  --fd-muted-foreground: 240 5% 65%;
+  
+  --fd-popover: 0 0% 4%;
+  --fd-popover-foreground: 0 0% 96%;
+  
+  --fd-card: 0 0% 4%;
+  --fd-card-foreground: 0 0% 96%;
+  
+  --fd-border: 0 0% 13%;
+  --fd-input: 0 0% 13%;
+  
+  --fd-primary: 0 0% 96%;
+  --fd-primary-foreground: 0 0% 0%;
+  
+  --fd-secondary: 0 0% 7%;
+  --fd-secondary-foreground: 0 0% 96%;
+  
+  --fd-accent: 0 0% 7%;
+  --fd-accent-foreground: 0 0% 96%;
+  
+  --fd-ring: 0 0% 20%;
+  --fd-radius: 0.25rem;
+  
+  color-scheme: dark;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+html > body[data-scroll-locked] {
+  margin-right: 0px !important;
+  --removed-body-scroll-bar-size: 0px !important;
+}
+
+.dark pre {
+  background-color: #0D0D0D !important;
+  border: 1px solid #222222 !important;
+}

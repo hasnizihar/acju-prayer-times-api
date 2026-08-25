@@ -47,9 +47,10 @@ const cacheMiddleware = (req, res, next) => {
 // Root health check for uptime monitors
 app.get('/health', (req, res) => res.json({ status: "ok" }));
 
-// Redirect root to GitHub repository for documentation
+// Redirect root to standalone documentation portal
 app.get('/', (req, res) => {
-  res.redirect('https://github.com/hasnizihar/acju-prayer-times-api');
+  const docsUrl = process.env.DOCS_URL || 'http://localhost:3001';
+  res.redirect(docsUrl);
 });
 
 app.use('/api/v1/health', generousLimiter);
