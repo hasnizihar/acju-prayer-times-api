@@ -17,6 +17,7 @@ All HTTP responses, headers, and rate limits were externally verified via raw `f
 |----------|--------|-------------|------------------|
 | `/api/v1` | `GET` | `200 OK` | Base API router resolves properly. Exposes API metadata. |
 | `/api/v1/metadata` | `GET` | `200 OK` | Verifies dataset versions, `current_year: 2026`, and `api_version: 1.0.0`. |
+| `/health` | `GET` | `200 OK` | Lightweight infrastructure health check. |
 | `/api/v1/health` | `GET` | `200 OK` | Explicitly tests remote Supabase PostgreSQL connectivity. Returns row counts. |
 | `/api/v1/locations` | `GET` | `200 OK` | Full array of 13 ACJU regions. |
 | `/api/v1/locations/resolve?lat=7.2906&lng=81.6337` | `GET` | `200 OK` | GPS strictly resolved to `batticaloa-ampara` with ADM2/ADM3 metadata. |

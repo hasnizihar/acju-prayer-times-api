@@ -7,16 +7,29 @@ info:
     prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU).
     Note: This API is independently developed by KR Hasni Zihar and is not an official ACJU API.
 servers:
-  - url: http://localhost:3000/api/v1
+  - url: https://acju-prayer-times-api.vercel.app
 paths:
-  /metadata:
+  /health:
+    get:
+      summary: Lightweight Root Health Check
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+  /api/v1/metadata:
     get:
       summary: Get dataset metadata and version
       description: Returns information about the underlying ACJU dataset, verification date, and API version.
       responses:
         '200':
           description: Successful response
-  /health:
+  /api/v1/health:
     get:
       summary: API Health Check
       responses:
@@ -47,13 +60,13 @@ paths:
                     type: integer
                   source_anomalies:
                     type: integer
-  /locations:
+  /api/v1/locations:
     get:
       summary: List all active locations
       responses:
         '200':
           description: Successful response
-  /locations/{slug}:
+  /api/v1/locations/{slug}:
     get:
       summary: Get location by slug
       parameters:
@@ -67,7 +80,7 @@ paths:
           description: Successful response
         '404':
           description: Location not found
-  /locations/resolve:
+  /api/v1/locations/resolve:
     get:
       summary: Resolve GPS coordinates to an ACJU region
       parameters:
@@ -88,7 +101,7 @@ paths:
           description: Missing or invalid coordinates, or outside Sri Lanka
         '404':
           description: Location not mapped
-  /prayer-times/today/all:
+  /api/v1/prayer-times/today/all:
     get:
       summary: Get today's valid prayer times for all 13 locations
       description: Returns times for today based on the Asia/Colombo timezone. Excludes anomalous source dates.
@@ -97,7 +110,7 @@ paths:
           description: Successful response
         '404':
           description: Data not available
-  /prayer-times/today:
+  /api/v1/prayer-times/today:
     get:
       summary: Get today's prayer times for a specific location
       parameters:
@@ -124,7 +137,7 @@ paths:
           description: Missing location/coordinates or outside Sri Lanka
         '404':
           description: Location or data not found
-  /prayer-times/{location}/{date}:
+  /api/v1/prayer-times/{location}/{date}:
     get:
       summary: Get prayer times for a specific valid calendar date
       parameters:
@@ -147,7 +160,7 @@ paths:
           description: Invalid date format
         '404':
           description: Data not available (e.g. for anomaly dates like 2026-02-29, this returns 404 since it's not a valid calendar date)
-  /prayer-times/{location}/{year}/{month}:
+  /api/v1/prayer-times/{location}/{year}/{month}:
     get:
       summary: Get all prayer times for a specific month
       parameters:
@@ -173,7 +186,7 @@ paths:
           description: Invalid year or month
         '404':
           description: Data not available
-  /prayer-times/{location}:
+  /api/v1/prayer-times/{location}:
     get:
       summary: Get prayer times within a date range
       parameters:

@@ -14,6 +14,7 @@ This document is the final verification report for the ACJU Prayer Times API pri
 |----------|--------|--------|-------|
 | `/api/v1` | `GET` | **PASS** | Returns base metadata successfully. |
 | `/api/v1/metadata` | `GET` | **PASS** | Returns dataset info, provider, location counts, and API version. |
+| `/health` | `GET` | **PASS** | Lightweight infrastructure health check. |
 | `/api/v1/health` | `GET` | **PASS** | DB connectivity verified externally. |
 | `/api/v1/locations` | `GET` | **PASS** | 13 locations returned natively. |
 | `/api/v1/locations/resolve` | `GET` | **PASS** | Tested with valid, invalid, out-of-bounds, and ocean coordinates. |

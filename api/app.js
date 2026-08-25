@@ -44,6 +44,9 @@ const cacheMiddleware = (req, res, next) => {
   next();
 };
 
+// Root health check for uptime monitors
+app.get('/health', (req, res) => res.json({ status: "ok" }));
+
 app.use('/api/v1/health', generousLimiter);
 app.use('/api/v1/locations$', generousLimiter);
 app.use('/api/v1/locations/resolve', moderateLimiter);

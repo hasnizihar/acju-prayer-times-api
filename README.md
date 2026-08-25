@@ -1,19 +1,18 @@
 # ACJU Prayer Times API
 
-> **ACJU Prayer Times API**
-> Independently developed by **KR Hasni Zihar** using prayer-time data sourced from the **All Ceylon Jamiyyathul Ulama (ACJU)**.
+> An independent REST API providing programmatic access to prayer-time data published by the All Ceylon Jamiyyathul Ulama (ACJU), with Sri Lanka geographic location resolution.
+
+## Independent Project
+
+Developed by **KR Hasni Zihar**. Prayer-time data is sourced from the **All Ceylon Jamiyyathul Ulama (ACJU)**. This project is not an official ACJU API unless explicitly authorized by ACJU.
 
 ## Data Source
-
-This API is independently developed by **KR Hasni Zihar**.
 
 The prayer-time data is sourced from the **All Ceylon Jamiyyathul Ulama (ACJU)** official prayer-time publications:
 
 https://www.acju.lk/prayer-times/
 
 ACJU is the source of the underlying prayer-time schedules. This project extracts, validates, normalizes, and exposes that information through a developer-oriented API.
-
-**This is not an official ACJU API and is not affiliated with, endorsed by, or sponsored by ACJU unless explicitly stated otherwise.**
 
 For the original source material, refer to the ACJU website.
 
@@ -81,6 +80,7 @@ Detailed documentation is available in the `/docs` directory:
 
 ## Available Endpoints
 
+* **`GET /health`** - Lightweight infrastructure health check
 * **`GET /api/v1/metadata`** - Dataset metadata, provider info, and versioning
 * **`GET /api/v1/health`** - API status & data counts
 * **`GET /api/v1/locations`** - List all 13 locations
