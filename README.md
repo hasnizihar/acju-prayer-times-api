@@ -1,82 +1,60 @@
 # ACJU Prayer Times API
 
-> An independent REST API providing programmatic access to prayer-time data published by the All Ceylon Jamiyyathul Ulama (ACJU), with Sri Lanka geographic location resolution.
+An independent REST API for accessing prayer-time data published by the
+All Ceylon Jamiyyathul Ulama (ACJU) for Sri Lanka.
 
-## Independent Project
+Built by **KR Hasni Zihar**.
 
-Developed by **KR Hasni Zihar**. Prayer-time data is sourced from the **All Ceylon Jamiyyathul Ulama (ACJU)**. This project is not an official ACJU API unless explicitly authorized by ACJU.
+> This is an independent project and is not an official ACJU API.
+> Prayer-time data is sourced from ACJU's published prayer-time documents.
 
-## Data Source
+## Live API
 
-The prayer-time data is sourced from the **All Ceylon Jamiyyathul Ulama (ACJU)** official prayer-time publications:
+https://acju-prayer-times-api.vercel.app
 
-https://www.acju.lk/prayer-times/
+## Documentation
 
-ACJU is the source of the underlying prayer-time schedules. This project extracts, validates, normalizes, and exposes that information through a developer-oriented API.
+https://github.com/hasnizihar/acju-prayer-times-api
 
-For the original source material, refer to the ACJU website.
+## OpenAPI Specification
 
----
+See [`openapi.yaml`](./openapi.yaml).
 
-### What is it?
-The ACJU Prayer Times API is a public, developer-first REST API for Sri Lanka. It provides structured, validated daily prayer times (sourced from ACJU) via a modern, scalable backend.
+## Get today's prayer times using GPS
 
-### What does it provide?
-- Daily, monthly, and date-range prayer times for all 13 ACJU prayer-time regions.
-- **Native GPS Resolution:** It automatically and deterministically maps user coordinates (latitude/longitude) to the correct ACJU region, bridging the gap between raw GPS data and administrative Sri Lankan boundaries (ADM2/ADM3).
-
-### How do I use it?
-The killer feature of this API is **GPS-based resolution**. Developers do not need to hardcode Sri Lankan districts, geographic bounds, or ACJU regions into their apps.
-
-Just pass the user's coordinates:
 ```http
 GET /api/v1/prayer-times/today?lat=7.2906&lng=81.6337
 ```
 
-### What does it return?
-The API returns precisely typed prayer times (using `Asia/Colombo` timezone), complete with geographic resolution metadata indicating how the region was mapped.
+The API resolves the coordinates through Sri Lankan administrative
+boundaries and maps the resulting area to the appropriate ACJU prayer-time
+region.
 
-```json
-{
-  "data": {
-    "location": {
-      "slug": "batticaloa-ampara",
-      "name": "Batticaloa & Ampara",
-      "resolution": {
-        "method": "coordinates",
-        "district": "Batticaloa",
-        "ds_division": "Manmunai North",
-        "confidence": "high"
-      }
-    },
-    "date": "2026-08-25",
-    "prayer_times": {
-      "fajr": "04:34",
-      "sunrise": "06:08",
-      "dhuhr": "12:21",
-      "asr": "15:47",
-      "maghrib": "18:28",
-      "isha": "19:39"
-    }
-  },
-  "source": {
-    "provider": "ACJU",
-    "source_page": "https://www.acju.lk/prayer-times/"
-  }
-}
+No user location is stored by this API.
+
+## Quick JavaScript Example
+
+```javascript
+const response = await fetch(
+  "https://acju-prayer-times-api.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337"
+);
+
+const result = await response.json();
+
+console.log(result.data.prayer_times);
 ```
 
-### Where is the documentation?
-Detailed documentation is available in the `/docs` directory:
-- [OpenAPI Specification](openapi.yaml)
-- [API Reference](docs/API.md)
-- [Location Resolution Contract](docs/LOCATION_RESOLUTION.md)
-- [Data Methodology & Source](docs/DATA_SOURCE.md)
-- [Data Quality & Anomalies](docs/DATA_QUALITY.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [Contributing](CONTRIBUTING.md)
-
----
+**Example Response:**
+```json
+{
+  "fajr": "04:37",
+  "sunrise": "05:56",
+  "dhuhr": "12:07",
+  "asr": "15:15",
+  "maghrib": "18:16",
+  "isha": "19:26"
+}
+```
 
 ## Available Endpoints
 
@@ -92,11 +70,78 @@ Detailed documentation is available in the `/docs` directory:
 * **`GET /api/v1/prayer-times/:location/:year/:month`** - Whole month query
 * **`GET /api/v1/prayer-times/:location?from=X&to=Y`** - Custom date range query
 
-## Features
-- **Public & Keyless**: No authentication required for reading data.
-- **Strictly Typed**: PostgreSQL `DATE` types enforce correct calendar days.
-- **Traceability**: Every record attributes ACJU as the source data provider.
-- **Rate Limited**: Intelligent tiered rate limits (30 - 300 req/min).
-- **Cached**: Optimized `Cache-Control` headers for fast, scalable retrieval.
+## Designed for Multiple Projects
 
-Geographic resolution is deterministic and based on Sri Lankan administrative boundaries with explicitly documented ACJU region mappings. Boundary geometry is provided by the [geoBoundaries](https://www.geoboundaries.org) Open Database (derived from OCHA and Survey Department of Sri Lanka data).
+This API is intended to serve as a reusable backend for applications such
+as:
+
+- Web applications
+- Android applications
+- iOS applications
+- Desktop applications
+- Prayer widgets
+- University/community applications
+- Islamic utility applications
+- Personal projects
+- Future services
+
+Applications consume the API rather than maintaining separate copies of
+the prayer-time dataset.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    ACJU[ACJU Published Data]
+    DATA[Validated Prayer Dataset]
+    DB[(Supabase PostgreSQL)]
+    API[ACJU Prayer Times API v1]
+    GPS[GPS Resolution]
+    CLIENTS[Web / Android / iOS / Other Projects]
+
+    ACJU --> DATA
+    DATA --> DB
+    DB --> API
+    GPS --> API
+    API --> CLIENTS
+```
+
+## Data & Attribution
+
+### Prayer-time data
+
+Prayer-time data is sourced from the published prayer-time documents of:
+
+**All Ceylon Jamiyyathul Ulama (ACJU)**
+
+Source:
+https://www.acju.lk/prayer-times/
+
+This project does not claim ownership of the underlying ACJU prayer-time
+data.
+
+### Software
+
+The API software is independently developed by:
+
+**KR Hasni Zihar**
+
+The source code is released under the MIT License, subject to the
+third-party data attribution and licensing terms described in `LICENSE`.
+
+### Geographic data
+
+Sri Lankan administrative geographic data is sourced from
+geoBoundaries and is subject to its applicable license and attribution
+requirements.
+
+## Additional Documentation
+
+Detailed documentation is available in the `/docs` directory:
+- [API Reference](docs/API.md)
+- [Data Methodology & Source](docs/DATA_SOURCE.md)
+- [Data Quality & Anomalies](docs/DATA_QUALITY.md)
+- [Data Model & Database](docs/DATA_MODEL.md)
+- [Location Resolution Contract](docs/LOCATION_RESOLUTION.md)
+- [Deployment Guide](docs/DEPLOYMENT.md)
+- [Security Model](docs/SECURITY.md)

@@ -1,13 +1,29 @@
 {
-  "name": "prayer-times-api",
+  "name": "acju-prayer-times-api",
   "version": "1.0.0",
-  "description": "ACJU Prayer Times API - Independently developed using prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU)",
+  "description": "Independent Sri Lankan prayer-times REST API built by KR Hasni Zihar using prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU). GPS-based ACJU region resolution included.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "node api/server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "prayer-times",
+    "acju",
+    "sri-lanka",
+    "islamic",
+    "islamic-prayer",
+    "salah",
+    "namaz",
+    "api",
+    "rest-api",
+    "express",
+    "supabase",
+    "nodejs",
+    "geolocation",
+    "gps",
+    "openapi"
+  ],
   "author": "KR Hasni Zihar",
   "license": "MIT",
   "type": "commonjs",
