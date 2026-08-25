@@ -9,3 +9,5 @@ node_modules/
 # Avoid committing IDE files
 .vscode/
 .idea/
+
+.vercel
