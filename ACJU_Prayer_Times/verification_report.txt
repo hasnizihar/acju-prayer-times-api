@@ -1,0 +1,29 @@
+ACJU Prayer Times - Final Verification Report
+================================================
+Generated: 2026-08-25T10:28:27.275Z
+Source: https://www.acju.lk/prayer-times/
+
+EXTRACTION METHOD:
+- Fetched the HTML source of the Prayer Times page
+- Extracted all href URLs matching wp-content/uploads/*.pdf|jpg|jpeg|png
+- URLs are embedded directly in Elementor nested-accordion HTML (no JS/AJAX needed)
+- Each location group uses an accordion item with 12 month sub-sections
+- Each month has both a JPG image link and a PDF document link
+
+TOTAL COMBINATIONS EXPECTED: 13 locations × 12 months = 156
+TOTAL FILE URLS DISCOVERED: 312
+
+RESULTS:
+  Location/Month combos covered:  156 / 156
+  Missing combinations:           0
+  Total files downloaded:          312
+
+FILE TYPES:
+  PDF files:              156
+  Image files:            156
+
+TOTAL DATA DOWNLOADED:    211.38 MB
+
+ALL COMBINATIONS COVERED!
+
+FILES SAVED TO: C:\Users\Zainy Zihar\Desktop\PRAYER TIMES api\ACJU_Prayer_Times

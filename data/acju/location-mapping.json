@@ -1,0 +1,152 @@
+[
+  {
+    "district": "Colombo",
+    "acju_slug": "colombo-gampaha-kalutara",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Gampaha",
+    "acju_slug": "colombo-gampaha-kalutara",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Kalutara",
+    "acju_slug": "colombo-gampaha-kalutara",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Jaffna",
+    "acju_slug": "jaffna-nallur",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Mullaitivu",
+    "acju_slug": "mullaitivu-kilinochchi-vavuniya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Kilinochchi",
+    "acju_slug": "mullaitivu-kilinochchi-vavuniya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Vavuniya",
+    "acju_slug": "mullaitivu-kilinochchi-vavuniya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Mannar",
+    "acju_slug": "mannar-puttalam",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Puttalam",
+    "acju_slug": "mannar-puttalam",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Anuradhapura",
+    "acju_slug": "anuradhapura-polonnaruwa",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Polonnaruwa",
+    "acju_slug": "anuradhapura-polonnaruwa",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Kurunegala",
+    "acju_slug": "kurunegala",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Kandy",
+    "acju_slug": "kandy-matale-nuwara-eliya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Matale",
+    "acju_slug": "kandy-matale-nuwara-eliya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Nuwara Eliya",
+    "acju_slug": "kandy-matale-nuwara-eliya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Batticaloa",
+    "acju_slug": "batticaloa-ampara",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Ampara",
+    "acju_slug": "batticaloa-ampara",
+    "confidence": "mapped",
+    "source": "Assumed. Note: Padiyatalawa & Dehiaththakandiya belong to Badulla/Monaragala category."
+  },
+  {
+    "district": "Trincomalee",
+    "acju_slug": "trincomalee",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Badulla",
+    "acju_slug": "badulla-monaragala-padiyatalawa-dehiaththakandiya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Monaragala",
+    "acju_slug": "badulla-monaragala-padiyatalawa-dehiaththakandiya",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Ratnapura",
+    "acju_slug": "ratnapura-kegalle",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Kegalle",
+    "acju_slug": "ratnapura-kegalle",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Galle",
+    "acju_slug": "galle-matara",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Matara",
+    "acju_slug": "galle-matara",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  },
+  {
+    "district": "Hambantota",
+    "acju_slug": "hambantota",
+    "confidence": "high",
+    "source": "Explicitly named in ACJU category"
+  }
+]

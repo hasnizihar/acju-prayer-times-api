@@ -1,0 +1,356 @@
+{
+  "location_id": "mannar-puttalam",
+  "location_name": "Mannar District, Puttalam District",
+  "year": 2026,
+  "month": 7,
+  "source": {
+    "provider": "ACJU",
+    "source_file": "04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-7-July.pdf",
+    "source_url": "https://www.acju.lk/prayer-times/",
+    "file_url": "https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-7-July.pdf",
+    "file_hash": "3b0c12a9d829973a2b64d94fee7e537e5a3928c7fc97cfd5bfab22cc57c365c9"
+  },
+  "days": [
+    {
+      "date": "2026-07-01",
+      "prayer_times": {
+        "fajr": "04:32",
+        "sunrise": "05:57",
+        "dhuhr": "12:16",
+        "asr": "15:43",
+        "maghrib": "18:34",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "prayer_times": {
+        "fajr": "04:32",
+        "sunrise": "05:58",
+        "dhuhr": "12:16",
+        "asr": "15:43",
+        "maghrib": "18:34",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "prayer_times": {
+        "fajr": "04:33",
+        "sunrise": "05:58",
+        "dhuhr": "12:17",
+        "asr": "15:44",
+        "maghrib": "18:34",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "prayer_times": {
+        "fajr": "04:33",
+        "sunrise": "05:58",
+        "dhuhr": "12:17",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "prayer_times": {
+        "fajr": "04:33",
+        "sunrise": "05:58",
+        "dhuhr": "12:17",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "prayer_times": {
+        "fajr": "04:34",
+        "sunrise": "05:59",
+        "dhuhr": "12:17",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "prayer_times": {
+        "fajr": "04:34",
+        "sunrise": "05:59",
+        "dhuhr": "12:17",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "prayer_times": {
+        "fajr": "04:34",
+        "sunrise": "05:59",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "prayer_times": {
+        "fajr": "04:35",
+        "sunrise": "05:59",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "prayer_times": {
+        "fajr": "04:35",
+        "sunrise": "05:59",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "prayer_times": {
+        "fajr": "04:35",
+        "sunrise": "06:00",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "prayer_times": {
+        "fajr": "04:35",
+        "sunrise": "06:00",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:51"
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "prayer_times": {
+        "fajr": "04:36",
+        "sunrise": "06:00",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "prayer_times": {
+        "fajr": "04:36",
+        "sunrise": "06:00",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "prayer_times": {
+        "fajr": "04:36",
+        "sunrise": "06:01",
+        "dhuhr": "12:18",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "prayer_times": {
+        "fajr": "04:37",
+        "sunrise": "06:01",
+        "dhuhr": "12:19",
+        "asr": "15:44",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "prayer_times": {
+        "fajr": "04:37",
+        "sunrise": "06:01",
+        "dhuhr": "12:19",
+        "asr": "15:43",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "prayer_times": {
+        "fajr": "04:37",
+        "sunrise": "06:01",
+        "dhuhr": "12:19",
+        "asr": "15:43",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "prayer_times": {
+        "fajr": "04:38",
+        "sunrise": "06:01",
+        "dhuhr": "12:19",
+        "asr": "15:43",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "prayer_times": {
+        "fajr": "04:38",
+        "sunrise": "06:02",
+        "dhuhr": "12:19",
+        "asr": "15:43",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "prayer_times": {
+        "fajr": "04:38",
+        "sunrise": "06:02",
+        "dhuhr": "12:19",
+        "asr": "15:43",
+        "maghrib": "18:35",
+        "isha": "19:50"
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "prayer_times": {
+        "fajr": "04:39",
+        "sunrise": "06:02",
+        "dhuhr": "12:19",
+        "asr": "15:42",
+        "maghrib": "18:35",
+        "isha": "19:49"
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "prayer_times": {
+        "fajr": "04:39",
+        "sunrise": "06:02",
+        "dhuhr": "12:19",
+        "asr": "15:42",
+        "maghrib": "18:35",
+        "isha": "19:49"
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "prayer_times": {
+        "fajr": "04:39",
+        "sunrise": "06:02",
+        "dhuhr": "12:19",
+        "asr": "15:42",
+        "maghrib": "18:35",
+        "isha": "19:49"
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "prayer_times": {
+        "fajr": "04:39",
+        "sunrise": "06:02",
+        "dhuhr": "12:19",
+        "asr": "15:42",
+        "maghrib": "18:35",
+        "isha": "19:49"
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "prayer_times": {
+        "fajr": "04:40",
+        "sunrise": "06:03",
+        "dhuhr": "12:19",
+        "asr": "15:41",
+        "maghrib": "18:34",
+        "isha": "19:48"
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "prayer_times": {
+        "fajr": "04:40",
+        "sunrise": "06:03",
+        "dhuhr": "12:19",
+        "asr": "15:41",
+        "maghrib": "18:34",
+        "isha": "19:48"
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "prayer_times": {
+        "fajr": "04:40",
+        "sunrise": "06:03",
+        "dhuhr": "12:19",
+        "asr": "15:41",
+        "maghrib": "18:34",
+        "isha": "19:48"
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "prayer_times": {
+        "fajr": "04:41",
+        "sunrise": "06:03",
+        "dhuhr": "12:19",
+        "asr": "15:40",
+        "maghrib": "18:34",
+        "isha": "19:47"
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "prayer_times": {
+        "fajr": "04:41",
+        "sunrise": "06:03",
+        "dhuhr": "12:19",
+        "asr": "15:40",
+        "maghrib": "18:34",
+        "isha": "19:47"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "prayer_times": {
+        "fajr": "04:41",
+        "sunrise": "06:03",
+        "dhuhr": "12:19",
+        "asr": "15:40",
+        "maghrib": "18:33",
+        "isha": "19:47"
+      }
+    }
+  ]
+}

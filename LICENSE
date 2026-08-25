@@ -1,0 +1,64 @@
+MIT License
+
+Copyright (c) 2026 KR Hasni Zihar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+------------------------------------------------------------
+DATA SOURCE AND THIRD-PARTY RIGHTS NOTICE
+------------------------------------------------------------
+
+The prayer-time data used by this project is sourced from the
+All Ceylon Jamiyyathul Ulama (ACJU):
+
+https://www.acju.lk/prayer-times/
+
+ACJU is the source of the underlying prayer-time schedules and related
+source materials. The inclusion, extraction, normalization, storage, and
+API presentation of this data in this project does not transfer ownership
+of the underlying ACJU materials to the author.
+
+ACJU retains its applicable rights in its original prayer-time materials,
+documents, images, PDFs, trademarks, names, and other protected content.
+
+This project is independently developed by KR Hasni Zihar and is not an
+official ACJU project.
+
+Unless explicitly stated otherwise by ACJU, no affiliation, endorsement,
+authorization, or sponsorship by ACJU should be inferred from this project.
+
+Users and downstream developers are responsible for determining whether
+their intended use of ACJU-derived data complies with applicable copyright,
+database, trademark, and other laws and with any terms or permissions
+applicable to the original ACJU materials.
+
+------------------------------------------------------------
+SOFTWARE VS. DATA
+------------------------------------------------------------
+
+The MIT License applies to the original software/code authored by
+KR Hasni Zihar.
+
+It does NOT automatically grant rights to reproduce, redistribute, modify,
+or commercially exploit ACJU's original source materials or other
+third-party content included or referenced by this project.
+
+Third-party datasets and materials remain subject to their respective
+licenses and terms.

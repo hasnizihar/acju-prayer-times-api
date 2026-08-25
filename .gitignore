@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+
+# Do not commit raw PDFs/JPGs unless intended as binary assets
+# ACJU_Prayer_Times/
+
+# Avoid committing IDE files
+.vscode/
+.idea/

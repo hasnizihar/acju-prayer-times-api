@@ -1,0 +1,32 @@
+{
+  "name": "prayer-times-api",
+  "version": "1.0.0",
+  "description": "ACJU Prayer Times API - Independently developed using prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node api/server.js"
+  },
+  "keywords": [],
+  "author": "KR Hasni Zihar",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "@turf/boolean-point-in-polygon": "^7.4.0",
+    "@turf/helpers": "^7.4.0",
+    "cors": "^2.8.6",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^4.4.168",
+    "sl-gnd-dsd-districts": "^1.0.0"
+  },
+  "devDependencies": {
+    "date-fns": "^4.4.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}

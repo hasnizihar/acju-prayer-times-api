@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "anuradhapura-polonnaruwa",
+    "name": "Anuradhapura District, Polonnaruwa District"
+  },
+  {
+    "slug": "badulla-monaragala-padiyatalawa-dehiaththakandiya",
+    "name": "Badulla District, Monaragala District, Padiyatalawa District, Dehiaththakandiya District"
+  },
+  {
+    "slug": "batticaloa-ampara",
+    "name": "Batticaloa District, Ampara District"
+  },
+  {
+    "slug": "colombo-gampaha-kalutara",
+    "name": "Colombo District, Gampaha District, Kalutara District"
+  },
+  {
+    "slug": "galle-matara",
+    "name": "Galle District, Matara District"
+  },
+  {
+    "slug": "hambantota",
+    "name": "Hambantota District"
+  },
+  {
+    "slug": "jaffna-nallur",
+    "name": "Jaffna District, Nallur District"
+  },
+  {
+    "slug": "kandy-matale-nuwara-eliya",
+    "name": "Kandy District, Matale District, Nuwara District, Eliya District"
+  },
+  {
+    "slug": "kurunegala",
+    "name": "Kurunegala District"
+  },
+  {
+    "slug": "mannar-puttalam",
+    "name": "Mannar District, Puttalam District"
+  },
+  {
+    "slug": "mullaitivu-kilinochchi-vavuniya",
+    "name": "Mullaitivu District, Kilinochchi District, Vavuniya District"
+  },
+  {
+    "slug": "ratnapura-kegalle",
+    "name": "Ratnapura District, Kegalle District"
+  },
+  {
+    "slug": "trincomalee",
+    "name": "Trincomalee District"
+  }
+]

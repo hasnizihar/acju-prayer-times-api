@@ -1,0 +1,119 @@
+[
+  {
+    "sample": "Colombo_Gampaha_Kalutara/January",
+    "pdf": "01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-1-Jan.pdf",
+    "pages": 1,
+    "fileSize": 907986,
+    "textLength": 3323,
+    "totalTimes": 186,
+    "headerPreview": "+94 117 490 490   All Ceylon Jamiyyathul Ulama (ACJU) www.acju.lk   info@acju.lk   @ACJUNews  DATE  "
+  },
+  {
+    "sample": "Colombo_Gampaha_Kalutara/June",
+    "pdf": "01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-6-June.pdf",
+    "pages": 1,
+    "fileSize": 482271,
+    "textLength": 3252,
+    "totalTimes": 180,
+    "headerPreview": "+94 117 490 490   All Ceylon Jamiyyathul Ulama (ACJU) www.acju.lk   info@acju.lk   @ACJUNews  DATE  "
+  },
+  {
+    "sample": "Jaffna_Nallur/March",
+    "pdf": "02-JAFFNA-DISTRICT-NALLUR-3-Mar.pdf",
+    "pages": 1,
+    "fileSize": 825767,
+    "textLength": 3196,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Mar   5:08 AM   6:25 AM   12:24 PM   3:44 PM  "
+  },
+  {
+    "sample": "Mullaitivu_Kilinochchi_Vavuniya/August",
+    "pdf": "03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-8-Aug.pdf",
+    "pages": 1,
+    "fileSize": 826710,
+    "textLength": 3250,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Aug   4:36 AM   5:59 AM   12:16 PM   3:36 PM  "
+  },
+  {
+    "sample": "Batticaloa_Ampara/October",
+    "pdf": "08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-10-Oct.pdf",
+    "pages": 1,
+    "fileSize": 825983,
+    "textLength": 3211,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Oct   4:35 AM   5:51 AM   11:54 AM   3:10 PM  "
+  },
+  {
+    "sample": "Trincomalee/February",
+    "pdf": "09-TRINCOMALEE-DISTRICT-2-Feb.pdf",
+    "pages": 1,
+    "fileSize": 825287,
+    "textLength": 3060,
+    "totalTimes": 174,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Feb   5:08 AM   6:28 AM   12:21 PM   3:42 PM  "
+  },
+  {
+    "sample": "Kandy_Matale_Nuwara_Eliya/December",
+    "pdf": "07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-12-Dec.pdf",
+    "pages": 1,
+    "fileSize": 826280,
+    "textLength": 3232,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Dec   4:43 AM   6:05 AM   11:58 AM   3:19 PM  "
+  },
+  {
+    "sample": "Hambantota/July",
+    "pdf": "13-HAMBANTOTA-DISTRICT-7-July.pdf",
+    "pages": 1,
+    "fileSize": 825362,
+    "textLength": 3191,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Jul   4:32 AM   5:57 AM   12:12 PM   3:39 PM  "
+  },
+  {
+    "sample": "Kurunegala/September",
+    "pdf": "06-KURUNEGALA-DISTRICT-9-Sep.pdf",
+    "pages": 1,
+    "fileSize": 825813,
+    "textLength": 3130,
+    "totalTimes": 180,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Sep   4:43 AM   6:01 AM   12:10 PM   3:14 PM  "
+  },
+  {
+    "sample": "Badulla_Monaragala_Padiyatalawa_Dehiaththakandiya/May",
+    "pdf": "May_010.pdf",
+    "pages": 1,
+    "fileSize": 826258,
+    "textLength": 3241,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-May   4:32 AM   5:52 AM   12:04 PM   3:20 PM  "
+  },
+  {
+    "sample": "Ratnapura_Kegalle/April",
+    "pdf": "11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-4-Apr.pdf",
+    "pages": 1,
+    "fileSize": 825704,
+    "textLength": 3141,
+    "totalTimes": 180,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Apr   4:50 AM   6:07 AM   12:14 PM   3:19 PM  "
+  },
+  {
+    "sample": "Galle_Matara/November",
+    "pdf": "12-GALLE-DISTRICT-MATARA-DISTRICT-11-Nov.pdf",
+    "pages": 1,
+    "fileSize": 825590,
+    "textLength": 3139,
+    "totalTimes": 180,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Nov   4:37 AM   5:56 AM   11:54 AM   3:16 PM  "
+  },
+  {
+    "sample": "Anuradhapura_Polonnaruwa/January",
+    "pdf": "05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-1-Jan.pdf",
+    "pages": 1,
+    "fileSize": 826044,
+    "textLength": 3218,
+    "totalTimes": 186,
+    "headerPreview": "DATE   FAJR   SUNRISE   LUHR   ASR   MAGRIB   ISHA  1-Jan   4:59 AM   6:23 AM   12:13 PM   3:33 PM  "
+  }
+]

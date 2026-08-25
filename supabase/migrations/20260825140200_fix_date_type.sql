@@ -1,0 +1,1 @@
+ALTER TABLE prayer_times ALTER COLUMN date TYPE TEXT;
