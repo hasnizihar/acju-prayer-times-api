@@ -1,6 +1,6 @@
 # API Reference
 
-The ACJU Prayer Times API provides public, unauthenticated access to structured prayer time data.
+The SalahSL API provides public, unauthenticated access to structured prayer time data.
 Namespace: `/api/v1/`
 
 ## Base URL

@@ -32,13 +32,13 @@ Returns the prayer times for the current day based on the `Asia/Colombo` timezon
 <Tabs items={['cURL', 'JavaScript', 'Python', 'Dart']}>
 <Tab value="cURL">
 ```bash
-curl "https://acju-prayer-times-api.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337"
+curl "https://salahsl.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337"
 ```
 </Tab>
 <Tab value="JavaScript">
 ```javascript
 const response = await fetch(
-  "https://acju-prayer-times-api.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337"
+  "https://salahsl.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337"
 );
 const result = await response.json();
 console.log(result.data.prayer_times);
@@ -48,7 +48,7 @@ console.log(result.data.prayer_times);
 ```python
 import requests
 
-url = "https://acju-prayer-times-api.vercel.app/api/v1/prayer-times/today"
+url = "https://salahsl.vercel.app/api/v1/prayer-times/today"
 params = {"lat": 7.2906, "lng": 81.6337}
 
 response = requests.get(url, params=params)
@@ -61,7 +61,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 void main() async {
-  var url = Uri.parse('https://acju-prayer-times-api.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337');
+  var url = Uri.parse('https://salahsl.vercel.app/api/v1/prayer-times/today?lat=7.2906&lng=81.6337');
   var response = await http.get(url);
   
   if (response.statusCode == 200) {

@@ -1,6 +1,6 @@
 # Release Readiness Audit - v1.0.0
 
-This document is the final verification report for the ACJU Prayer Times API prior to the `v1.0.0` public release. 
+This document is the final verification report for the SalahSL API prior to the `v1.0.0` public release. 
 
 ## Final Security & Repository Audit
 | Check | Status | Notes |

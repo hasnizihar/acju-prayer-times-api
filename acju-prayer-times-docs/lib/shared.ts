@@ -1,4 +1,4 @@
-export const appName = 'ACJU API';
+export const appName = 'SalahSL API';
 export const docsRoute = '/docs';
 export const docsImageRoute = '/og/docs';
 export const docsContentRoute = '/llms.mdx/docs';

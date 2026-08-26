@@ -7,12 +7,12 @@ export default function HomePage() {
       {
         '@type': 'WebSite',
         url: 'https://salahsl.vercel.app/guide',
-        name: 'ACJU Prayer Times API Documentation',
+        name: 'SalahSL API Documentation',
         description: 'Developer-friendly REST API providing Islamic prayer times for Sri Lanka.',
       },
       {
         '@type': 'SoftwareApplication',
-        name: 'ACJU Prayer Times API',
+        name: 'SalahSL API',
         applicationCategory: 'DeveloperApplication',
         operatingSystem: 'Any',
         description: 'Independent ACJU-sourced prayer-time API for Sri Lanka.',
@@ -37,7 +37,7 @@ export default function HomePage() {
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-24">
         <div className="max-w-3xl w-full text-center space-y-8">
           <div className="space-y-4">
-            <h1 className="text-sm font-mono tracking-widest text-fd-muted-foreground uppercase">ACJU Prayer Times API</h1>
+            <h1 className="text-sm font-mono tracking-widest text-fd-muted-foreground uppercase">SalahSL API</h1>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight">
               Prayer-time infrastructure<br />for Sri Lanka.
             </h2>

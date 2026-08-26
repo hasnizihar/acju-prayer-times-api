@@ -1,6 +1,6 @@
 # Location Resolution Contract
 
-The ACJU Prayer Times API provides a native, highly accurate geographic resolver to convert arbitrary GPS coordinates into a valid ACJU prayer-time timetable.
+The SalahSL API provides a native, highly accurate geographic resolver to convert arbitrary GPS coordinates into a valid ACJU prayer-time timetable.
 
 ## What does the API accept?
 The API natively accepts `lat` (latitude) and `lng` (longitude) query parameters via two endpoints:

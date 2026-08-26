@@ -30,7 +30,8 @@ export function ApiPlayground({ endpoint, method = 'GET', defaultParams = {} }: 
       });
       
       const queryString = searchParams.toString() ? `?${searchParams.toString()}` : '';
-      const url = `https://acju-prayer-times-api.vercel.app${endpoint}${queryString}`;
+      const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://salahsl.vercel.app';
+      const url = `${baseUrl}${endpoint}${queryString}`;
       
       const response = await fetch(url, { method });
       const data = await response.json();

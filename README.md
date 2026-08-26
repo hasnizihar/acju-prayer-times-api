@@ -1,4 +1,4 @@
-# ACJU Prayer Times API
+# SalahSL API
 
 An independent REST API for accessing prayer-time data published by the
 All Ceylon Jamiyyathul Ulama (ACJU) for Sri Lanka.
@@ -95,7 +95,7 @@ flowchart LR
     ACJU[ACJU Published Data]
     DATA[Validated Prayer Dataset]
     DB[(Supabase PostgreSQL)]
-    API[ACJU Prayer Times API v1]
+    API[SalahSL API v1]
     GPS[GPS Resolution]
     CLIENTS[Web / Android / iOS / Other Projects]
 

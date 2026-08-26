@@ -19,7 +19,7 @@ nextApp.prepare().then(() => {
   });
 
   app.listen(port, () => {
-    console.log(`🚀 ACJU Prayer Times API and Docs are running on http://localhost:${port}`);
+    console.log(`🚀 SalahSL API and Docs are running on http://localhost:${port}`);
     console.log(`\nAvailable endpoints:`);
     console.log(`- GET / (API Metadata)`);
     console.log(`- GET /guide (Landing Page)`);

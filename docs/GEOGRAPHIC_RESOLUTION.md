@@ -1,6 +1,6 @@
 # Geographic Resolution Architecture
 
-The ACJU Prayer Times API provides native geographic resolution to convert arbitrary GPS coordinates into valid ACJU prayer-time timetables.
+The SalahSL API provides native geographic resolution to convert arbitrary GPS coordinates into valid ACJU prayer-time timetables.
 
 ## The Problem
 Sri Lanka consists of 25 administrative districts. The ACJU publishes prayer times for 13 composite regions (e.g., combining Colombo, Gampaha, and Kalutara). However, some of these regions do not follow clean district boundaries (e.g., Padiyatalawa and Dehiaththakandiya are in the Ampara district but are assigned to the Badulla/Monaragala ACJU category). 

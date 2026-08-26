@@ -56,7 +56,55 @@ html > body[data-scroll-locked] {
   --removed-body-scroll-bar-size: 0px !important;
 }
 
-.dark pre {
+/* Fix code block container styling */
+.dark .fd-codeblock {
   background-color: #0D0D0D !important;
   border: 1px solid #222222 !important;
+}
+
+.dark .fd-codeblock pre {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* FIX: Ensure layout containers do not stretch infinitely */
+main, article, .fd-docs-layout, .fd-toc, .prose, .prose > * {
+  min-width: 0;
+}
+
+/* FIX: Prevent long URLs in code blocks from breaking layout */
+pre, .codeBlock, .fd-codeblock {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto !important;
+}
+
+pre code, .codeBlock code {
+  white-space: pre;
+}
+
+/* Constrain the main documentation content for better readability */
+.fd-docs-layout > main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make sure grid columns do not overflow */
+.fd-docs-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr) 200px;
+}
+
+@media (max-width: 1024px) {
+  .fd-docs-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .fd-docs-layout {
+    display: flex;
+    flex-direction: column;
+  }
 }

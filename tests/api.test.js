@@ -6,7 +6,7 @@ const app = require('../api/app');
 const hasDatabase = !!process.env.SUPABASE_URL && !!process.env.SUPABASE_ANON_KEY;
 const testLabel = hasDatabase ? '' : ' [REQUIRES_REMOTE_DATABASE - SKIPPED]';
 
-describe(`ACJU Prayer Times API${testLabel}`, () => {
+describe(`SalahSL API${testLabel}`, () => {
 
   beforeAll(() => {
     // If not testing against a real database, we don't need to mock it,

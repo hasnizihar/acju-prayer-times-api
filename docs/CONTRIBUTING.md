@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in improving the ACJU Prayer Times API!
+Thank you for your interest in improving the SalahSL API!
 
 This project aims to provide the Sri Lankan developer community with a pristine, well-documented, machine-readable dataset for prayer times.
 

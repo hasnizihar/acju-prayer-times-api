@@ -188,7 +188,7 @@ app.get('/api/v1/locations/:slug', async (req, res) => {
 // 0. Base API Metadata Endpoint
 app.get('/api/v1', (req, res) => {
   res.json({
-    name: "ACJU Prayer Times API",
+    name: "SalahSL API",
     version: "1.0.0",
     status: "operational",
     docs: "/guide" // Optional future OpenAPI viewer

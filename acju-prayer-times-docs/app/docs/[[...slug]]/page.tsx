@@ -33,7 +33,7 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'ACJU Prayer Times API',
+      name: 'SalahSL API',
       logo: {
         '@type': 'ImageObject',
         url: 'https://salahsl.vercel.app/icon.png',

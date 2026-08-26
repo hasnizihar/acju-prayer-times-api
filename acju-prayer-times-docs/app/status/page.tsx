@@ -1,14 +1,14 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Status | ACJU Prayer Times API',
-  description: 'System status for the ACJU Prayer Times API.',
+  title: 'Status | SalahSL API',
+  description: 'System status for the SalahSL API.',
 };
 
 async function getStatus() {
   try {
-    const res = await fetch('https://acju-prayer-times-api.vercel.app/api/v1/health', { 
-      cache: 'no-store' 
+    const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://salahsl.vercel.app/api/v1';
+    const res = await fetch(`${baseUrl}/health`, { 
     });
     return res.ok;
   } catch {
