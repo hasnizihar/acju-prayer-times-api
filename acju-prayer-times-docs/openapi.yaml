@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: ACJU Prayer Times API
+  title: SalahSL API
   version: 1.0.0
   description: >
     REST API providing prayer times across 13 regions in Sri Lanka based on 

@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.1.0] - 2026-08-25
+## [1.0.0] - 2026-08-26
 ### Added
 - Initial `/api/v1/` REST API structure.
 - Public read-only endpoints (`/health`, `/locations`, `/prayer-times/today`, `/prayer-times/today/all`, `/prayer-times/{slug}/{date}`, `/prayer-times/{slug}/{year}/{month}`).

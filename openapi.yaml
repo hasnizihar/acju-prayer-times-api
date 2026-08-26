@@ -1,13 +1,13 @@
 openapi: 3.0.3
 info:
-  title: ACJU Prayer Times API
+  title: SalahSL API
   version: 1.0.0
   description: >
     REST API providing prayer times across 13 regions in Sri Lanka based on 
     prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU).
     Note: This API is independently developed by KR Hasni Zihar and is not an official ACJU API.
 servers:
-  - url: https://acju-prayer-times-api.vercel.app
+  - url: https://salahsl.vercel.app
 paths:
   /health:
     get:

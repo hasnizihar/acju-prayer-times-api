@@ -8,8 +8,8 @@ This project aims to provide the Sri Lankan developer community with a pristine,
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/acju-prayer-times-api.git
-   cd acju-prayer-times-api
+   git clone https://github.com/hasnizihar/salahsl-api.git
+   cd salahsl-api
    ```
 2. **Install dependencies:**
    ```bash

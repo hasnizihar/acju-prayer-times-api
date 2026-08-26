@@ -1,7 +1,7 @@
 {
-  "name": "acju-prayer-times-api",
+  "name": "salahsl-api",
   "version": "1.0.0",
-  "description": "Independent Sri Lankan prayer-times REST API built by KR Hasni Zihar using prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU). GPS-based ACJU region resolution included.",
+  "description": "SalahSL API is a developer-friendly REST API for accessing Sri Lankan prayer times using data sourced from the All Ceylon Jamiyyathul Ulama (ACJU).",
   "main": "index.js",
   "scripts": {
     "test": "jest",
