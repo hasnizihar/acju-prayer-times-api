@@ -4,12 +4,20 @@
     {
       "src": "api/app.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "acju-prayer-times-docs/package.json",
+      "use": "@vercel/next"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "api/app.js"
+      "source": "/",
+      "destination": "/api/app.js"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/app.js"
     }
   ]
 }
