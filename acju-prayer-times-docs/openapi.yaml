@@ -7,7 +7,7 @@ info:
     prayer-time data sourced from the All Ceylon Jamiyyathul Ulama (ACJU).
     Note: This API is independently developed by KR Hasni Zihar and is not an official ACJU API.
 servers:
-  - url: https://acju-prayer-times-api.vercel.app
+  - url: https://salahsl.vercel.app
 paths:
   /health:
     get:

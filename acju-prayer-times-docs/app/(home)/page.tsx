@@ -1,8 +1,36 @@
 import Link from 'next/link';
 
 export default function HomePage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        url: 'https://salahsl.vercel.app/guide',
+        name: 'ACJU Prayer Times API Documentation',
+        description: 'Developer-friendly REST API providing Islamic prayer times for Sri Lanka.',
+      },
+      {
+        '@type': 'SoftwareApplication',
+        name: 'ACJU Prayer Times API',
+        applicationCategory: 'DeveloperApplication',
+        operatingSystem: 'Any',
+        description: 'Independent ACJU-sourced prayer-time API for Sri Lanka.',
+        offers: {
+          '@type': 'Offer',
+          price: '0',
+          priceCurrency: 'USD',
+        },
+      }
+    ]
+  };
+
   return (
     <main className="flex flex-col min-h-screen bg-fd-background text-fd-foreground selection:bg-fd-muted">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
 
       {/* Hero */}

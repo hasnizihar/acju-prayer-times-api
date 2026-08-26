@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const { createClient } = require('@supabase/supabase-js');
 const { formatInTimeZone } = require('date-fns-tz');
@@ -47,11 +48,11 @@ const cacheMiddleware = (req, res, next) => {
 // Root health check for uptime monitors
 app.get('/health', (req, res) => res.json({ status: "ok" }));
 
-// Redirect root to standalone documentation portal
+// Redirect root to API metadata
 app.get('/', (req, res) => {
-  const docsUrl = process.env.DOCS_URL || 'http://localhost:3001';
-  res.redirect(docsUrl);
+  res.redirect('/api/v1');
 });
+
 
 app.use('/api/v1/health', generousLimiter);
 app.use('/api/v1/locations$', generousLimiter);
@@ -190,7 +191,7 @@ app.get('/api/v1', (req, res) => {
     name: "ACJU Prayer Times API",
     version: "1.0.0",
     status: "operational",
-    docs: "/docs" // Optional future OpenAPI viewer
+    docs: "/guide" // Optional future OpenAPI viewer
   });
 });
 

@@ -13,9 +13,41 @@ const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
 });
 
-export const metadata = {
-  title: 'ACJU Prayer Times API | Developer Documentation',
-  description: 'Independent ACJU-sourced prayer-time API for Sri Lanka, built by KR Hasni Zihar.',
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    template: '%s | ACJU Prayer Times API',
+    default: 'ACJU Prayer Times API | Sri Lanka Islamic Prayer Times API',
+  },
+  description: 'Free and developer-friendly REST API providing Islamic prayer times for Sri Lanka, powered by ACJU prayer time data. Get Fajr, Dhuhr, Asr, Maghrib and Isha times by location and date.',
+  keywords: [
+    'Sri Lanka prayer times API',
+    'Islamic prayer times API',
+    'prayer times API Sri Lanka',
+    'ACJU prayer times API',
+    'Muslim prayer times API',
+    'Salah times API',
+    'Fajr Dhuhr Asr Maghrib Isha API',
+    'Sri Lanka Islamic calendar API',
+    'prayer time REST API',
+    'prayer times JSON API'
+  ],
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://salahsl.vercel.app'),
+  alternates: {
+    canonical: '/guide',
+  },
+  openGraph: {
+    title: 'ACJU Prayer Times API',
+    description: 'Access Islamic prayer times across Sri Lanka through a simple REST API.',
+    type: 'website',
+    url: '/guide',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ACJU Prayer Times API',
+    description: 'Access Islamic prayer times across Sri Lanka through a simple REST API.',
+  },
 };
 
 export default function Layout({ children }: { children: ReactNode }) {

@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "build": "cd acju-prayer-times-docs && npm run build",
     "start": "node api/server.js",
-    "dev": "node --watch api/server.js"
+    "dev": "node --watch-path=./api api/server.js"
   },
   "keywords": [
     "prayer-times",
@@ -37,8 +38,13 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-rate-limit": "^8.6.2",
+    "fumadocs-core": "^16.15.1",
+    "fumadocs-mdx": "^15.3.1",
+    "next": "^16.3.3",
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^4.4.168",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "sl-gnd-dsd-districts": "^1.0.0"
   },
   "devDependencies": {
