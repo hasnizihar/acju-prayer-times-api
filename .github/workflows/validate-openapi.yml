@@ -14,6 +14,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate OpenAPI spec
-        uses: mbowe/openapi-validator-action@v2
-        with:
-          file: openapi.yaml
+        run: npx @redocly/cli lint openapi.yaml
